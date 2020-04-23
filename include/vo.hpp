@@ -9,6 +9,10 @@
 #include <eigen3/Eigen/Dense>
 #include <eigen3/Eigen/SVD>
 
+#include "ceres/ceres.h"
+#include "ceres/rotation.h"
+
+
 
 #include <iostream>
 #include <ctype.h>
@@ -19,8 +23,7 @@
 #include <sstream>
 #include <fstream>
 #include <string>
-
-
+#include <iostream>
 
 #include "feature.h"
 #include "utils.h"
@@ -30,7 +33,7 @@
 using namespace cv;
 using namespace std;
 
-class vo
+struct vo
 {
 public:
     
@@ -60,4 +63,9 @@ private:
     float s;         
 };
 
+void preProcess(Mat&image0, Mat&image1);
+
+void unevenLightCompensate(Mat &image, int blockSize);
+
+void imuData(string&dir, vector<vector<double> >&EularRotationData);
 #endif /* pointCloudMapping */

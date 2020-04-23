@@ -1,0 +1,37 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x1a\x003\x00d\x00R\x00e\x00c\x00o\x00n\x00s\x00t\x00r\x00u\x00c\x00t)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index-Host System=0
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/home/yinji/Project/3dReconstruct/build
+Build Type=\n
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=/usr/local
+Runtime=Host System
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=3dReconstruct
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x1a\x003\x00d\x00R\x00e\x00c\x00o\x00n\x00s\x00t\x00r\x00u\x00c\x00t\x00\x00\x00\x1a\x003\x00d\x00R\x00e\x00c\x00o\x00n\x00s\x00t\x00r\x00u\x00c\x00t)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///home/yinji/Project/3dReconstruct
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=3dReconstruct,3dReconstruct
+Use External Terminal=false
+Working Directory=
+isExecutable=false
