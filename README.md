@@ -19,4 +19,6 @@ Clone the repository and catkin_make:
     catkin_make
 ```
 Capture a stereo dataset. Launch it as follows:
+```
 ./3dReconstruct folderName frameNumber
+```
