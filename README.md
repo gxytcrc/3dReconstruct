@@ -8,6 +8,7 @@
 * Pangolin
 * OpenCV
 * Ceres Solver
+* PCL
 
 # 2. How do I use it? #
 Clone the repository and catkin_make:
