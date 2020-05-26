@@ -13,7 +13,7 @@
 # 2. How do I use it? #
 Clone the repository and catkin_make:
 ```
-    git clone https://github.com/zYinji/3dReconstruct,git
+    git clone https://github.com/gxytcrc/3dReconstruct.git
     mkdir build
     cd build
     cmake ..
